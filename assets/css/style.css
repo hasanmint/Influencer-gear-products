@@ -1,0 +1,207 @@
+/* fonts source */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&display=swap');
+/* common styling */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	background-color: #fff;
+	color: #3a3a3a;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.section-title {
+	text-align: center;
+	font-weight: 600;
+	font-size: 28px;
+}
+
+/*=========================================
+                  header style 
+==========================================*/
+
+#header {
+	margin-top: 20px;
+}
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo-title {
+	width: 240px;
+	font-weight: 700;
+	font-size: 24px;
+}
+.navbar ul {
+	display: flex;
+}
+.navbar ul li {
+	list-style: none;
+	margin-left: 34px;
+	transition: .3s all ease-in;
+}
+.navbar ul li a {
+	text-decoration: none;
+	color: #3a3a3a;
+	font-weight: 600px;
+	font-size: 16px;
+}
+
+.navbar ul li a:hover {
+	border-bottom: 3px solid #3a3a3a;
+}
+
+.nav-icon .fas {
+	margin-left: 34px;
+}
+
+/*=========================================
+            Banner Section Style
+==========================================*/
+
+#main {
+	margin-top: 50px;
+}
+.banner-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.banner-title {
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.banner-left {
+	width: 580px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.banner-right {
+	width: 440px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.banner-right img {
+	width: 100%;
+}
+
+.btn {
+	background-color: #e02c6d;
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 41px;
+}
+.btn span {
+	margin-left: 8px;
+}
+
+.btn:hover {
+	background-color: #12b0e8;
+}
+
+/*=========================================
+            brands Section Style
+==========================================*/
+
+.brand-section {
+	margin-top: 70px;
+}
+
+.brands {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 18px 30px;
+	box-shadow: .1px .1px 10px #00000015;
+}
+.brands div {
+	margin-right: 60px;
+}
+
+/*=========================================
+            brands Section Style
+==========================================*/
+.product-section {
+	margin-top: 100px;
+}
+
+.products {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	grid-gap: 30px;
+}
+.product {
+	width: 330px;
+	height: 475px;
+	box-shadow: .1px .1px 10px #00000015;
+	padding: 17px;
+}
+.product img {
+	width: 100%;
+	border-radius: 5px;
+}
+.product-title {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 16px;
+}
+
+.product-price {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 3px;
+}
+.product-rating p {
+	font-size: 14px;
+}
+
+.fa-star.filled {
+	color: #ffc014;
+}
+.fa-star.empty {
+	color: #aeaeae;
+}
+
+/*=========================================
+            Footer Section Style
+==========================================*/
+
+#footer {
+	background-color: #000000;
+	margin-top: 100px;
+}
+.footer {
+	color: #fff;
+	padding: 10px;
+}
+.footer-info {
+	text-align: center;
+}
+.footer-social {
+	text-align: center;
+}
+.footer-social a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 32px;
+	margin-right: 16px;
+	transition: .4s all ease;
+}
+
+.footer-social a:hover {
+	color: #22cb5c;
+}
