@@ -1,6 +1,11 @@
-/* fonts source */
+/*=========================================
+                 fonts source
+==========================================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-/* common styling */
+
+/*=========================================
+                Common Style
+==========================================*/
 body {
 	margin: 0;
 	padding: 0;
@@ -98,6 +103,9 @@ body {
 	align-items: flex-end;
 	margin-left: 20px;
 }
+.banner-right:hover {
+	opacity: .7;
+}
 
 .banner-right img {
 	width: 100%;
@@ -159,6 +167,9 @@ body {
 .product img {
 	width: 100%;
 	border-radius: 5px;
+}
+.product img:hover {
+	opacity: .7;
 }
 .product-title {
 	font-weight: 700;
@@ -296,15 +307,15 @@ input[type=submit] {
 }
 /* =====================
          tablet devices
-    ========================*/
+========================*/
 
 @media only screen and (min-width: 689px) and (max-width: 992px) {
 	.banner-title {
 		font-size: 24px;
 	}
-    .banner-right img {
-        display: none;
-    }
+	.banner-right img {
+		display: none;
+	}
 	.header-container {
 		flex-direction: column;
 	}
