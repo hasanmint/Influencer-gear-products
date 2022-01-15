@@ -1,5 +1,5 @@
 /* fonts source */
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 /* common styling */
 body {
 	margin: 0;
@@ -34,10 +34,10 @@ body {
 	align-items: center;
 }
 .logo-title {
-	width: 240px;
 	font-weight: 700;
 	font-size: 24px;
 }
+
 .navbar ul {
 	display: flex;
 }
@@ -76,6 +76,7 @@ body {
 .banner-title {
 	font-size: 50px;
 	font-weight: 700;
+	line-height: 70px;
 }
 
 .banner-left {
@@ -86,11 +87,16 @@ body {
 	align-items: flex-start;
 }
 
+.banner-left p {
+	margin-top: 0;
+}
+
 .banner-right {
 	width: 440px;
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
+	margin-left: 20px;
 }
 
 .banner-right img {
@@ -132,7 +138,7 @@ body {
 }
 
 /*=========================================
-            brands Section Style
+            Product Section Style
 ==========================================*/
 .product-section {
 	margin-top: 100px;
@@ -174,6 +180,14 @@ body {
 }
 .fa-star.empty {
 	color: #aeaeae;
+}
+
+.see-more {
+	margin-top: 10px;
+	float: right;
+	color: #e02c6d;
+	text-decoration: none;
+	margin-right: 0px;
 }
 
 /*=========================================
