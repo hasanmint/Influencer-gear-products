@@ -251,3 +251,12 @@ input[type=submit] {
 .footer-social a:hover {
 	opacity: 0.7;
 }
+
+/* =====================
+    Media Queries
+========================*/
+@media only screen and (max-width: 688px) {
+	body {
+		background-color: red;
+	}
+}
